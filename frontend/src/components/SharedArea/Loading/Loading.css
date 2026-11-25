@@ -1,0 +1,29 @@
+.Loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+.Loading > img {
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Loading p {
+  margin-top: 1rem;
+  color: var(--primary);
+  font-size: 1em;
+}

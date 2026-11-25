@@ -1,0 +1,80 @@
+.ProductCard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 420px;
+  background-color: var(--white);
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow);
+  margin: 0;
+  position: relative;
+}
+
+.ProductCard:hover {
+  transform: none;
+  box-shadow: var(--shadow-hover);
+}
+
+.ProductCard img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ProductCard:hover img {
+  transform: scale(1.03);
+}
+
+.ProductCard > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  flex: 1;
+  background: var(--white);
+  border-top: 1px solid #f0f0f0;
+}
+
+.ProductCard span {
+  display: block;
+  line-height: 1.6;
+}
+
+.ProductCard span:first-child {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.8rem;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.ProductCard span:nth-child(2) {
+  font-size: 0.95em;
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.ProductCard span:nth-child(3) {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.ProductCard span:nth-child(2) {
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+}
+
+.ProductCard span:last-child {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: var(--secondary);
+}

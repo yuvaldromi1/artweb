@@ -1,0 +1,34 @@
+.AuthMenu {
+  position: relative;
+  z-index: 50;
+  padding: 0 2rem;
+}
+
+.AuthMenu .user-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.6rem 0;
+}
+
+.AuthMenu .user-info span {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+.AuthMenu button {
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.AuthMenu button:hover {
+  background-color: var(--secondary);
+}

@@ -1,0 +1,45 @@
+.Home {
+    direction: rtl;
+    text-align: right;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+    min-height: 100vh;
+}
+
+.Home .hero {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--primary);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Home .subtitle {
+    font-size: 1.2em;
+    color: #666;
+    margin: 1.5rem 0 2rem 0;
+    line-height: 1.6;
+}
+
+
+.Home p {
+    font-size: 2em;
+    color: #333;
+    line-height: 2.3;
+    margin: 1rem auto;
+    max-width: 800px;
+    text-align: right;
+    direction: rtl;
+}
+
+.Home h1 {
+    font-size: 3.5em;
+    color: #333;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-align: center;
+    font-family: "Arial, sans-serif";
+    direction: rtl;
+}

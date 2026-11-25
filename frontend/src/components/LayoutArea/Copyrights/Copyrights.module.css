@@ -1,0 +1,17 @@
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  color: #aaa;
+  font-size: 0.85em;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.bolder {
+  font-weight: 700;
+  color: var(--secondary);
+  margin: 0 0.2rem;
+}

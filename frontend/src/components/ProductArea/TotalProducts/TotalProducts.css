@@ -1,0 +1,25 @@
+.TotalProducts {
+  background-color: var(--white);
+  border: none;
+  border-radius: 0;
+  padding: 0.8rem 1.5rem;
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.TotalProducts h3 {
+  color: var(--primary);
+  margin: 0;
+  font-size: 0.95em;
+}
+
+.TotalProducts .count {
+  font-size: 1.3em;
+  color: var(--secondary);
+  font-weight: 700;
+}

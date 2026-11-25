@@ -1,0 +1,108 @@
+.Register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+}
+
+.Register form {
+  background-color: var(--white);
+  padding: 3rem;
+  border-radius: 0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 500px;
+}
+
+.Register h2 {
+  text-align: center;
+  margin: 0 0 2rem 0;
+  font-size: 1.8em;
+  color: var(--primary);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.Register label {
+  display: block;
+  margin-bottom: 0.6rem;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+.Register input {
+  width: 100%;
+  padding: 0.85rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0;
+  font-size: 1em;
+  background: #fafafa;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+.Register input:focus {
+  outline: none;
+  border-color: var(--secondary);
+  background: var(--white);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+}
+
+.Register input::placeholder {
+  color: #ccc;
+}
+
+.captcha-container {
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+}
+
+.Register button {
+  width: 100%;
+  padding: 0.95rem;
+  margin-top: 1.5rem;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+.Register button:hover:not(:disabled) {
+  background-color: var(--secondary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Register button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.Register button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.Register p {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: var(--primary);
+  font-size: 0.95em;
+}
+
+.Register a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.Register a:hover {
+  color: var(--primary);
+}

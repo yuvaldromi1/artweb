@@ -1,0 +1,75 @@
+.AddProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  padding: 2rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+}
+
+.AddProduct form {
+  background-color: var(--white);
+  padding: 3rem;
+  border-radius: 0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 500px;
+}
+
+.AddProduct h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 1.8em;
+}
+
+.AddProduct label {
+  display: block;
+  margin-bottom: 0.6rem;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+.AddProduct input,
+.AddProduct textarea {
+  width: 100%;
+  padding: 0.85rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0;
+  font-size: 1em;
+  background: #fafafa;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.AddProduct input:focus,
+.AddProduct textarea:focus {
+  outline: none;
+  border-color: var(--secondary);
+  background: var(--white);
+}
+
+.AddProduct textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.AddProduct button {
+  width: 100%;
+  padding: 0.95rem;
+  margin-top: 1rem;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+.AddProduct button:hover {
+  background-color: var(--secondary);
+}
